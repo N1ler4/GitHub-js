@@ -1,0 +1,119 @@
+#content{
+    padding-top: 128px;
+    .container{
+        .content-menu{
+            ul{
+                display: flex;
+                gap: 24px;
+                margin-bottom: 28px;
+
+                li{
+                    padding: 16px 0;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    font-weight: 600;
+                    color: #C2CAD1;
+                    font-size: 14px;
+                    border-bottom: 2px solid #e7796000;
+                    cursor: pointer;
+                    span{
+                        padding: 5px;
+                        color: white;
+                        background: #343942;
+                        border-radius: 100%;
+                    }
+
+                    i{
+                        font-size: 22px;
+                    }
+                    
+                    &:hover{
+                        border-bottom: 2px solid #E77960;
+                        transition: all 0.2s linear;
+                    }
+                }
+            }
+        }
+
+        #portfoliyo{
+            padding: 28px 25px;
+            border: 1px solid #343942;
+            border-radius: 10px;
+
+            p:nth-child(1){
+                font-weight: 700;
+                font-size: 12px;
+                color: #C2CAD1;
+                margin-bottom: 24px;
+            }
+            
+            h2{
+                padding-bottom: 24px;
+                font-weight: 700;
+                font-size: 32px;
+                color: #EE5F2E;
+                width: 100%;
+                border-bottom: 1px solid #282C31;
+                margin-bottom: 24px;
+            }
+
+            h3{
+                font-weight: 700;
+                font-size: 18px;
+                color: #C2CAD1;
+                margin-bottom: 15px;
+            }
+
+            .about_us{
+                margin-bottom: 24px;
+                padding-left: 28px;
+                li{
+                    margin-bottom: 10px;
+                    list-style-type: disc;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #C2CAD1;
+                }
+            }
+
+            h4{
+                font-weight: 700;
+                font-size: 18px;
+                color: #C2CAD1;
+                margin-bottom: 15px;
+            }
+
+            .platzi{
+                margin-bottom: 24px;
+            }
+
+            .connect{
+                margin-bottom: 24px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                i{
+                    font-size: 44px;
+                }
+            }
+
+            .language{
+                display: flex;
+                flex-wrap: wrap;
+                width: 316px;
+                gap: 20px;
+                margin-bottom: 24px;
+            }
+
+            .top_language{
+                padding-top: 24px;
+                border-top: 4px solid #343942;
+            }
+
+            .github{
+                margin-top: 24px;
+            }
+        }
+    }
+}
